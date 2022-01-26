@@ -471,7 +471,7 @@ var states = [{
 
 L.geoJSON(parks, {
     style: function(feature) {
-        switch (feature.properties.["Baseball Fields"]) {
+        switch (feature.properties["Baseball Fields"]) {
             case 'Yes': return {color: "#49A078"};
             case 'No':   return {color: "#E9B44C"};
         }
